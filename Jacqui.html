@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JACT</title>
+    <link rel="stylesheet" href="light.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="card">
+        <h1>J.A.C.T</h1>
+
+        Welcome to the Jacqui Assessment Countdown Timer.<br>Here you can keep track of upcoming assessments with Fiona!
+    </div>
+
+    <div class="container">
+        <div id="data-structures" class="item">
+            <h2>Object Oriented Design</h2>
+            <p>Assessments left: 5</p>
+
+            <p>Next Assessment: Stage 1 - Analysis</p>
+            <p>Starts In:  <span id="ds-count"></span></p>
+        </div>
+
+        <div id="web-development" class="item">
+            <h2>Object Oriented Programming</h2>
+            <p>Assessments left: 1</p>
+
+            <p>Next Assessment: Implementation Project</p>
+            <p>Starts In:  <span id="wd-count"></span></p>
+        </div>
+
+        <div class="item-wide">
+            <h2>Time Machine</h2>
+            <p>Here you will find assessments/deadlines which have been in the past.</p>
+
+            <table>
+                <tr>
+                    <th>Subject</th>
+                    <th>Assessment</th>
+                    <th>Date</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <footer>
+        &copy Owen Plimer 2024 <br>
+        All information on this website is taken directly from course materials i.e. iLearn and Assessment Schedule Document. I will try my best to keep it accurate, but use this with <span style="color:var(--md-sys-color-error)">caution!</span>    </footer>
+
+    <script src="jacqui.js"></script>
+</body>
+</html>
